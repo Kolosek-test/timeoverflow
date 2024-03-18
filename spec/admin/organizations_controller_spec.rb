@@ -1,4 +1,4 @@
-RSpec.describe Admin::OrganizationsController, type: :controller do
+RSpec.describe OrganizationsController, type: :controller do
   let(:organization) { Fabricate(:organization) }
   let(:member) { Fabricate(:member, organization: organization) }
   let(:user) { member.user }
